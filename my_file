@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int num1,num2;
+    int sum;
+    printf("Enter the first number to perform addition:");
+    scanf("%d",&num1);
+    printf("Enter the second number to perform addition:");
+    scanf("%d",&num2);
+    sum=num1+num2;
+    printf("addition is:",sum);
+    return 0;
+}    
+    
+    
+    
